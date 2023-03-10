@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+<center>
+    <br>
+    <hr>
+<div class="p-3 mb-2 bg-info  text-white" style="width: 25rem;">
+  <h1>Добавить заказ</h1>
+  <form action="/add_order/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Добавить">
+  </form>
+</div>
+    <br>
+    <hr>
+</center>
+
+{% include 'footer.html' %}

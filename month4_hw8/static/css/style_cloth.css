@@ -1,0 +1,18 @@
+body {
+    background: url("https://sputnik.kg/img/07e4/08/1c/1049455490_0:134:1280:858_1920x0_80_0_0_e807bdd3c07605a9d24da444ed7b7900.jpg");
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: aliceblue;
+  color: black;
+}
+
+hr {
+    border: none;
+    color: red;
+    background-color: red;
+    height: 10px;
+   }
